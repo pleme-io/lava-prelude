@@ -219,6 +219,66 @@ rec {
         ];
 
       };
+      "lava-architectures" = rec {
+        crateName = "lava-architectures";
+        version = "0.1.3";
+        edition = "2024";
+        workspace_member = null;
+        src = pkgs.fetchgit {
+          url = "https://github.com/pleme-io/lava-architectures";
+          rev = "7896a1a468ff2abde5c7a69bf9e222fd1d12b15c";
+          sha256 = "1cgyxv87bv6ifr4hywv7crw8dy1y05pm09ppfx46hjzdsl0q64zi";
+        };
+        libName = "lava_architectures";
+        authors = [
+          "pleme-io"
+        ];
+        dependencies = [
+          {
+            name = "indexmap";
+            packageId = "indexmap";
+            features = [ "serde" ];
+          }
+          {
+            name = "lava-arch";
+            packageId = "lava-arch";
+          }
+          {
+            name = "lava-contracts";
+            packageId = "lava-contracts";
+          }
+          {
+            name = "lava-core";
+            packageId = "lava-core";
+          }
+          {
+            name = "lava-eval";
+            packageId = "lava-eval";
+          }
+          {
+            name = "lava-schema";
+            packageId = "lava-schema";
+          }
+          {
+            name = "lava-types";
+            packageId = "lava-types";
+          }
+          {
+            name = "serde";
+            packageId = "serde";
+            features = [ "derive" ];
+          }
+          {
+            name = "serde_json";
+            packageId = "serde_json";
+          }
+          {
+            name = "thiserror";
+            packageId = "thiserror";
+          }
+        ];
+
+      };
       "lava-contracts" = rec {
         crateName = "lava-contracts";
         version = "0.1.1";
@@ -289,13 +349,13 @@ rec {
       };
       "lava-eval" = rec {
         crateName = "lava-eval";
-        version = "0.1.1";
+        version = "0.1.2";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-eval";
-          rev = "bf8948a65fa149cd67282f7d2d7fc03a08edfb2a";
-          sha256 = "028f16spf986gd62fi6sq073lfiv1m5ixzx29ihpd3cmi8c3zjxy";
+          rev = "fe517f24d7cfa4c9fe4e55568c3483714ebda9e2";
+          sha256 = "0cds5v1ma6y7bqp228827i4c1zz10ii6j22nb6q7p52r166g6phx";
         };
         libName = "lava_eval";
         authors = [
@@ -316,6 +376,10 @@ rec {
             packageId = "lava-core";
           }
           {
+            name = "lava-schema";
+            packageId = "lava-schema";
+          }
+          {
             name = "serde";
             packageId = "serde";
             features = [ "derive" ];
@@ -333,7 +397,7 @@ rec {
       };
       "lava-prelude" = rec {
         crateName = "lava-prelude";
-        version = "0.1.1";
+        version = "0.1.2";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         libName = "lava_prelude";
@@ -344,6 +408,10 @@ rec {
           {
             name = "lava-arch";
             packageId = "lava-arch";
+          }
+          {
+            name = "lava-architectures";
+            packageId = "lava-architectures";
           }
           {
             name = "lava-contracts";
@@ -389,13 +457,13 @@ rec {
       };
       "lava-runtime" = rec {
         crateName = "lava-runtime";
-        version = "0.1.0";
+        version = "0.1.1";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-runtime";
-          rev = "76d255f2c6982c2761de2efdf4261d4833d65da3";
-          sha256 = "1xb15l1rc68ss4brlj7jl4g1r387gf88v41xx3zxbvl9a9xbdcpj";
+          rev = "e207af357536007b151f811e6b307371d957defc";
+          sha256 = "1i67xqb1xhpycl6w6yzmx9ygi8dys546sh79yzbhrglj4302sf7q";
         };
         libName = "lava_runtime";
         authors = [
