@@ -24,6 +24,7 @@ lava-types     = { git = "https://github.com/pleme-io/lava-types",     branch = 
 lava-schema    = { git = "https://github.com/pleme-io/lava-schema",    branch = "main" }
 lava-eval      = { git = "https://github.com/pleme-io/lava-eval",      branch = "main" }
 lava-runtime   = { git = "https://github.com/pleme-io/lava-runtime",   branch = "main" }
+lava-architectures = { git = "https://github.com/pleme-io/lava-architectures", branch = "main" }
 
 [dev-dependencies]
 indexmap = { version = "2", features = ["serde"] }

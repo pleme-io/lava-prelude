@@ -62,8 +62,11 @@ pub use lava_types::{MatchKind, Type, TypeError};
 pub use lava_schema::{Field, Interface, InterfaceRegistry, SchemaError};
 
 pub use lava_eval::{
-    eval_architecture, parse, Atom, EvalError, InputBindings, ParseError, Sx,
+    eval_architecture, eval_architecture_with_schema, parse, parse_all, Atom, EvalError,
+    InputBindings, ParseError, Sx,
 };
+
+pub use lava_architectures::{interface_for, load_bundled, ARCHITECTURE_DIR};
 
 pub use lava_runtime::{
     pick_runtime_for_path, ArtifactBinding, ArtifactInput, Diagnostic, DiagnosticLevel,
