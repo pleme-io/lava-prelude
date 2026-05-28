@@ -100,7 +100,7 @@ dependencies = [
 
 [[package]]
 name = "lava-prelude"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "indexmap",
  "lava-arch",
@@ -118,7 +118,7 @@ dependencies = [
 [[package]]
 name = "lava-runtime"
 version = "0.1.4"
-source = "git+https://github.com/pleme-io/lava-runtime?branch=main#fd347216f8d8fd19f90a24df71ed798571067a1a"
+source = "git+https://github.com/pleme-io/lava-runtime?branch=main#a0dc497bfce07162aba81204ac60ff6c81c7ad3b"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -132,7 +132,7 @@ dependencies = [
 [[package]]
 name = "lava-schema"
 version = "0.1.3"
-source = "git+https://github.com/pleme-io/lava-schema?branch=main#65f6923d1fee98985eabfdfab320248a4a44a80f"
+source = "git+https://github.com/pleme-io/lava-schema?branch=main#2abf9fd5fe50a976afa385c18fbdf5f5579a5f21"
 dependencies = [
  "indexmap",
  "lava-types",
@@ -143,7 +143,7 @@ dependencies = [
 [[package]]
 name = "lava-stack"
 version = "0.1.3"
-source = "git+https://github.com/pleme-io/lava-stack?branch=main#6ae5e6e4fef6d5c8d8f60f8837db528431f58ce9"
+source = "git+https://github.com/pleme-io/lava-stack?branch=main#b6e53aee2acd112d2d901499fa77e7282f20ef08"
 dependencies = [
  "indexmap",
  "lava-arch",
