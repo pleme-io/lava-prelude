@@ -34,8 +34,8 @@ checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
 name = "lava-arch"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-arch?branch=main#89252b1064356af4f529a1a34b3f78bca72bb184"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-arch?branch=main#c209f38fa3ea023998fa98b29c47323445cf5b1d"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -46,8 +46,8 @@ dependencies = [
 
 [[package]]
 name = "lava-architectures"
-version = "0.1.4"
-source = "git+https://github.com/pleme-io/lava-architectures?branch=main#0d12c5ea8e6a4444d451546bd59921f3fd9088d6"
+version = "0.1.13"
+source = "git+https://github.com/pleme-io/lava-architectures?branch=main#cfce4d910db9c99162c0dee6c7250631270db85c"
 dependencies = [
  "indexmap",
  "lava-arch",
@@ -64,7 +64,7 @@ dependencies = [
 [[package]]
 name = "lava-contracts"
 version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-contracts?branch=main#d0eecbe15702a147c9057e70ff74f847f4d71718"
+source = "git+https://github.com/pleme-io/lava-contracts?branch=main#d0fa2d3589d73fcb7257deabf177105d20040d37"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -73,24 +73,26 @@ dependencies = [
 
 [[package]]
 name = "lava-core"
-version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-core?branch=main#9d3dacaf51c7bae86efb0c925842286a793039cf"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/lava-core?branch=main#9f3f4874d0cd2403dc12c90bfed0dd2af2eca1e0"
 dependencies = [
  "indexmap",
  "serde",
  "serde_json",
+ "serde_yaml",
  "thiserror",
 ]
 
 [[package]]
 name = "lava-eval"
-version = "0.1.3"
-source = "git+https://github.com/pleme-io/lava-eval?branch=main#aed07612cee0f9317b3054c4acf2b07a36f54b44"
+version = "0.1.7"
+source = "git+https://github.com/pleme-io/lava-eval?branch=main#dc1d5ebec9b868c09be795f3d6d7e0351c5ca6ef"
 dependencies = [
  "indexmap",
  "lava-arch",
  "lava-core",
  "lava-schema",
+ "lava-types",
  "serde",
  "serde_json",
  "thiserror",
@@ -115,12 +117,13 @@ dependencies = [
 
 [[package]]
 name = "lava-runtime"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-runtime?branch=main#e207af357536007b151f811e6b307371d957defc"
+version = "0.1.3"
+source = "git+https://github.com/pleme-io/lava-runtime?branch=main#7482dcd0a26f5b084e8e0af33b4f6c6feb031721"
 dependencies = [
  "indexmap",
  "lava-core",
  "lava-eval",
+ "lava-schema",
  "serde",
  "serde_json",
  "thiserror",
@@ -128,8 +131,8 @@ dependencies = [
 
 [[package]]
 name = "lava-schema"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-schema?branch=main#9366c7db071ac8476f3c75085281b6a6bec0168d"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-schema?branch=main#87ff6aa2ad0792005d261e649cf9aa0730c508a5"
 dependencies = [
  "indexmap",
  "lava-types",
@@ -139,12 +142,13 @@ dependencies = [
 
 [[package]]
 name = "lava-stack"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-stack?branch=main#f1023167b2e0d0356f6a984fca0359edf6639842"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-stack?branch=main#d88b6da1d125c6fb038ef32d88b0ba1583fcd2c4"
 dependencies = [
  "indexmap",
  "lava-arch",
  "lava-core",
+ "lava-schema",
  "serde",
  "serde_json",
  "thiserror",
@@ -153,7 +157,7 @@ dependencies = [
 [[package]]
 name = "lava-types"
 version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-types?branch=main#961bf4c24eec994c4cd7557a5fc6a3522928c455"
+source = "git+https://github.com/pleme-io/lava-types?branch=main#b25da786d635dc4880e55c63f8629a7727b2db89"
 dependencies = [
  "serde",
  "thiserror",
@@ -161,9 +165,9 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-version = "2.8.0"
+version = "2.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
+checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
 
 [[package]]
 name = "proc-macro2"
@@ -182,6 +186,12 @@ checksum = "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924"
 dependencies = [
  "proc-macro2",
 ]
+
+[[package]]
+name = "ryu"
+version = "1.0.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9774ba4a74de5f7b1c1451ed6cd5285a32eddb5cccb8cc655a4e50009e06477f"
 
 [[package]]
 name = "serde"
@@ -227,6 +237,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde_yaml"
+version = "0.9.34+deprecated"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6a8b1a1a2ebf674015cc02edccce75287f1a0130d394307b36743c2f5d504b47"
+dependencies = [
+ "indexmap",
+ "itoa",
+ "ryu",
+ "serde",
+ "unsafe-libyaml",
+]
+
+[[package]]
 name = "syn"
 version = "2.0.117"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -262,6 +285,12 @@ name = "unicode-ident"
 version = "1.0.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
+
+[[package]]
+name = "unsafe-libyaml"
+version = "0.2.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861"
 
 [[package]]
 name = "zmij"
