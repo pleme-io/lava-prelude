@@ -34,8 +34,8 @@ checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
 name = "lava-arch"
-version = "0.1.3"
-source = "git+https://github.com/pleme-io/lava-arch?branch=main#b76775c67ba839557e1d62cea07e95c30e5d47e3"
+version = "0.1.4"
+source = "git+https://github.com/pleme-io/lava-arch?branch=main#119a099a7ecdfcf32b45b3408c6910c17967bcce"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -46,8 +46,8 @@ dependencies = [
 
 [[package]]
 name = "lava-architectures"
-version = "0.1.13"
-source = "git+https://github.com/pleme-io/lava-architectures?branch=main#467dcfb1ea50499a02267aedc5b114ff9a2c0beb"
+version = "0.1.14"
+source = "git+https://github.com/pleme-io/lava-architectures?branch=main#481c1c4f47bc0c3cf8fd0311920074078284dd80"
 dependencies = [
  "indexmap",
  "lava-arch",
@@ -63,8 +63,8 @@ dependencies = [
 
 [[package]]
 name = "lava-contracts"
-version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-contracts?branch=main#f60fe3b3c2ae3c05be8993cdd43b4381bbb41922"
+version = "0.1.3"
+source = "git+https://github.com/pleme-io/lava-contracts?branch=main#69e7207da84963d894c216c59ca8d3a4d60c8aff"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -74,7 +74,7 @@ dependencies = [
 [[package]]
 name = "lava-core"
 version = "0.1.6"
-source = "git+https://github.com/pleme-io/lava-core?branch=main#df13f94d90911d47138bf211d492c4962630f8ca"
+source = "git+https://github.com/pleme-io/lava-core?branch=main#2a99a06a1609bb969361f8917865324f86b9d172"
 dependencies = [
  "indexmap",
  "serde",
@@ -85,8 +85,8 @@ dependencies = [
 
 [[package]]
 name = "lava-eval"
-version = "0.1.7"
-source = "git+https://github.com/pleme-io/lava-eval?branch=main#bab284d18f8355c7b4fc3b79d76b4ef25f109ba3"
+version = "0.1.8"
+source = "git+https://github.com/pleme-io/lava-eval?branch=main#2e0656d46916ef36560a845f0c2a520294477e69"
 dependencies = [
  "indexmap",
  "lava-arch",
@@ -117,8 +117,8 @@ dependencies = [
 
 [[package]]
 name = "lava-runtime"
-version = "0.1.5"
-source = "git+https://github.com/pleme-io/lava-runtime?branch=main#301762a6495112635a9c660c10f9975bf1b825f6"
+version = "0.1.6"
+source = "git+https://github.com/pleme-io/lava-runtime?branch=main#5ee68abfe4c8d097207355cc5cb791a8f3ad4d72"
 dependencies = [
  "indexmap",
  "lava-core",
@@ -131,8 +131,8 @@ dependencies = [
 
 [[package]]
 name = "lava-schema"
-version = "0.1.4"
-source = "git+https://github.com/pleme-io/lava-schema?branch=main#1abb14533eca15a2092768d56357ebff3761b098"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/lava-schema?branch=main#09a6cd732bc0634226ac42ed7d7397086d152230"
 dependencies = [
  "indexmap",
  "lava-types",
@@ -142,8 +142,8 @@ dependencies = [
 
 [[package]]
 name = "lava-stack"
-version = "0.1.4"
-source = "git+https://github.com/pleme-io/lava-stack?branch=main#1538b18fe029efc7b146f488f50ded732025c289"
+version = "0.1.6"
+source = "git+https://github.com/pleme-io/lava-stack?branch=main#26d967b89225a9497a1298f117f407aa3eeb40ee"
 dependencies = [
  "indexmap",
  "lava-arch",
@@ -157,7 +157,7 @@ dependencies = [
 [[package]]
 name = "lava-types"
 version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-types?branch=main#16ac0b6c7c33c96e2cf17c0067db94e8633e5062"
+source = "git+https://github.com/pleme-io/lava-types?branch=main#61a43b423cd87ba8e3a2f672668814bcb1e06868"
 dependencies = [
  "serde",
  "thiserror",
@@ -165,9 +165,9 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-version = "2.8.1"
+version = "2.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
+checksum = "88904434abc2901f197fe8cc55f0445e7ded921dba5911dad2e2b39b48e663c4"
 
 [[package]]
 name = "proc-macro2"
@@ -180,9 +180,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.45"
+version = "1.0.46"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924"
+checksum = "dfbc457d0c7a0759a614551b11a6409e5951f6c7537be1f1b7682b9ae9230368"
 dependencies = [
  "proc-macro2",
 ]
@@ -251,9 +251,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.117"
+version = "2.0.118"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e665b8803e7b1d2a727f4023456bbbbe74da67099c585258af0ad9c5013b9b99"
+checksum = "1b9ae57f904213ebb649ce6895b8a66c66f0203b9319718f69a5612a065b1422"
 dependencies = [
  "proc-macro2",
  "quote",
