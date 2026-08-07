@@ -106,7 +106,7 @@
         },
         {
           "name": "serde_core",
-          "package_key": "serde_core-1.0.228",
+          "package_key": "serde_core-1.0.229",
           "kind": "normal",
           "features": [],
           "uses_default_features": false,
@@ -198,7 +198,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -210,7 +210,7 @@
         },
         {
           "name": "serde_json",
-          "package_key": "serde_json-1.0.150",
+          "package_key": "serde_json-1.0.151",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -220,7 +220,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -345,7 +345,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -357,7 +357,7 @@
         },
         {
           "name": "serde_json",
-          "package_key": "serde_json-1.0.150",
+          "package_key": "serde_json-1.0.151",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -367,7 +367,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -502,7 +502,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -569,7 +569,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -581,7 +581,7 @@
         },
         {
           "name": "serde_json",
-          "package_key": "serde_json-1.0.150",
+          "package_key": "serde_json-1.0.151",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -601,7 +601,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -691,7 +691,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -703,7 +703,7 @@
         },
         {
           "name": "serde_json",
-          "package_key": "serde_json-1.0.150",
+          "package_key": "serde_json-1.0.151",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -713,7 +713,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -783,9 +783,9 @@
         "preBuild": "export CARGO_CRATE_NAME=lava_eval;"
       }
     },
-    "lava-prelude-0.1.7": {
+    "lava-prelude-0.1.8": {
       "name": "lava-prelude",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "edition": "2024",
       "source": {
         "kind": "path",
@@ -951,7 +951,7 @@
       },
       "build_rust_crate_args": {
         "crateName": "lava-prelude",
-        "version": "0.1.7",
+        "version": "0.1.8",
         "edition": "2024",
         "crateRenames": {
           "lava-arch": [
@@ -1076,7 +1076,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -1088,7 +1088,7 @@
         },
         {
           "name": "serde_json",
-          "package_key": "serde_json-1.0.150",
+          "package_key": "serde_json-1.0.151",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1098,7 +1098,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1197,7 +1197,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -1209,7 +1209,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1304,7 +1304,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -1316,7 +1316,7 @@
         },
         {
           "name": "serde_json",
-          "package_key": "serde_json-1.0.150",
+          "package_key": "serde_json-1.0.151",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1326,7 +1326,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1403,7 +1403,7 @@
       "runtime_dependencies": [
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [
             "derive"
@@ -1415,7 +1415,7 @@
         },
         {
           "name": "thiserror",
-          "package_key": "thiserror-2.0.18",
+          "package_key": "thiserror-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1468,15 +1468,15 @@
         "preBuild": "export CARGO_CRATE_NAME=memchr;"
       }
     },
-    "proc-macro2-1.0.106": {
+    "proc-macro2-1.0.107": {
       "name": "proc-macro2",
-      "version": "1.0.106",
+      "version": "1.0.107",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate",
-        "sha256": "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934",
-        "name_with_ext": "proc-macro2-1.0.106.tar.gz"
+        "url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.107.crate",
+        "sha256": "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9",
+        "name_with_ext": "proc-macro2-1.0.107.tar.gz"
       },
       "features": [
         "default",
@@ -1510,7 +1510,7 @@
       },
       "build_rust_crate_args": {
         "crateName": "proc-macro2",
-        "version": "1.0.106",
+        "version": "1.0.107",
         "edition": "2021",
         "features": [
           "default",
@@ -1529,15 +1529,15 @@
         "preBuild": "export CARGO_CRATE_NAME=proc_macro2;"
       }
     },
-    "quote-1.0.46": {
+    "quote-1.0.47": {
       "name": "quote",
-      "version": "1.0.46",
+      "version": "1.0.47",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/quote/quote-1.0.46.crate",
-        "sha256": "dfbc457d0c7a0759a614551b11a6409e5951f6c7537be1f1b7682b9ae9230368",
-        "name_with_ext": "quote-1.0.46.tar.gz"
+        "url": "https://static.crates.io/crates/quote/quote-1.0.47.crate",
+        "sha256": "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001",
+        "name_with_ext": "quote-1.0.47.tar.gz"
       },
       "features": [
         "default",
@@ -1551,7 +1551,7 @@
       "runtime_dependencies": [
         {
           "name": "proc_macro2",
-          "package_key": "proc-macro2-1.0.106",
+          "package_key": "proc-macro2-1.0.107",
           "kind": "normal",
           "features": [],
           "uses_default_features": false,
@@ -1564,14 +1564,14 @@
       "crate_renames": {
         "proc-macro2": [
           {
-            "version": "1.0.106",
+            "version": "1.0.107",
             "rename": "proc_macro2"
           }
         ]
       },
       "build_rust_crate_args": {
         "crateName": "quote",
-        "version": "1.0.46",
+        "version": "1.0.47",
         "edition": "2021",
         "features": [
           "default",
@@ -1580,7 +1580,7 @@
         "crateRenames": {
           "proc-macro2": [
             {
-              "version": "1.0.106",
+              "version": "1.0.107",
               "rename": "proc_macro2"
             }
           ]
@@ -1617,15 +1617,15 @@
         "preBuild": "export CARGO_CRATE_NAME=ryu;"
       }
     },
-    "serde-1.0.228": {
+    "serde-1.0.229": {
       "name": "serde",
-      "version": "1.0.228",
+      "version": "1.0.229",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/serde/serde-1.0.228.crate",
-        "sha256": "9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
-        "name_with_ext": "serde-1.0.228.tar.gz"
+        "url": "https://static.crates.io/crates/serde/serde-1.0.229.crate",
+        "sha256": "4148590afebada386688f18773da617792bf2ef03ffc1e4cbd2b1d45b023e0ba",
+        "name_with_ext": "serde-1.0.229.tar.gz"
       },
       "features": [
         "default",
@@ -1641,7 +1641,7 @@
       "runtime_dependencies": [
         {
           "name": "serde_core",
-          "package_key": "serde_core-1.0.228",
+          "package_key": "serde_core-1.0.229",
           "kind": "normal",
           "features": [
             "result"
@@ -1653,7 +1653,7 @@
         },
         {
           "name": "serde_derive",
-          "package_key": "serde_derive-1.0.228",
+          "package_key": "serde_derive-1.0.229",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1666,7 +1666,7 @@
       "crate_renames": {},
       "build_rust_crate_args": {
         "crateName": "serde",
-        "version": "1.0.228",
+        "version": "1.0.229",
         "edition": "2021",
         "features": [
           "default",
@@ -1679,15 +1679,15 @@
         "preBuild": "export CARGO_CRATE_NAME=serde;"
       }
     },
-    "serde_core-1.0.228": {
+    "serde_core-1.0.229": {
       "name": "serde_core",
-      "version": "1.0.228",
+      "version": "1.0.229",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/serde_core/serde_core-1.0.228.crate",
-        "sha256": "41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
-        "name_with_ext": "serde_core-1.0.228.tar.gz"
+        "url": "https://static.crates.io/crates/serde_core/serde_core-1.0.229.crate",
+        "sha256": "67dca2c9c51e58a4791a4b1ed58308b39c64224d349a935ab5039aa360942a48",
+        "name_with_ext": "serde_core-1.0.229.tar.gz"
       },
       "features": [
         "result",
@@ -1703,7 +1703,7 @@
       "crate_renames": {},
       "build_rust_crate_args": {
         "crateName": "serde_core",
-        "version": "1.0.228",
+        "version": "1.0.229",
         "edition": "2021",
         "features": [
           "result",
@@ -1714,15 +1714,15 @@
         "preBuild": "export CARGO_CRATE_NAME=serde_core;"
       }
     },
-    "serde_derive-1.0.228": {
+    "serde_derive-1.0.229": {
       "name": "serde_derive",
-      "version": "1.0.228",
+      "version": "1.0.229",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/serde_derive/serde_derive-1.0.228.crate",
-        "sha256": "d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
-        "name_with_ext": "serde_derive-1.0.228.tar.gz"
+        "url": "https://static.crates.io/crates/serde_derive/serde_derive-1.0.229.crate",
+        "sha256": "e7a5d71263a5a7d47b41f6b3f06ba276f10cc18b0931f1799f710578e2309348",
+        "name_with_ext": "serde_derive-1.0.229.tar.gz"
       },
       "features": [
         "default"
@@ -1735,7 +1735,7 @@
       "runtime_dependencies": [
         {
           "name": "proc_macro2",
-          "package_key": "proc-macro2-1.0.106",
+          "package_key": "proc-macro2-1.0.107",
           "kind": "normal",
           "features": [
             "proc-macro"
@@ -1747,7 +1747,7 @@
         },
         {
           "name": "quote",
-          "package_key": "quote-1.0.46",
+          "package_key": "quote-1.0.47",
           "kind": "normal",
           "features": [
             "proc-macro"
@@ -1759,7 +1759,7 @@
         },
         {
           "name": "syn",
-          "package_key": "syn-2.0.119",
+          "package_key": "syn-3.0.3",
           "kind": "normal",
           "features": [
             "clone-impls",
@@ -1778,14 +1778,14 @@
       "crate_renames": {
         "proc-macro2": [
           {
-            "version": "1.0.106",
+            "version": "1.0.107",
             "rename": "proc_macro2"
           }
         ]
       },
       "build_rust_crate_args": {
         "crateName": "serde_derive",
-        "version": "1.0.228",
+        "version": "1.0.229",
         "edition": "2021",
         "features": [
           "default"
@@ -1793,7 +1793,7 @@
         "crateRenames": {
           "proc-macro2": [
             {
-              "version": "1.0.106",
+              "version": "1.0.107",
               "rename": "proc_macro2"
             }
           ]
@@ -1803,15 +1803,15 @@
         "preBuild": "export CARGO_CRATE_NAME=serde_derive;"
       }
     },
-    "serde_json-1.0.150": {
+    "serde_json-1.0.151": {
       "name": "serde_json",
-      "version": "1.0.150",
+      "version": "1.0.151",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/serde_json/serde_json-1.0.150.crate",
-        "sha256": "e8014e44b4736ed0538adeecded0fce2a272f22dc9578a7eb6b2d9993c74cfb9",
-        "name_with_ext": "serde_json-1.0.150.tar.gz"
+        "url": "https://static.crates.io/crates/serde_json/serde_json-1.0.151.crate",
+        "sha256": "c841b55ecdae098c80dcae9cf767f6f8a0c2cdb3416bbef72181df4d0fe73f14",
+        "name_with_ext": "serde_json-1.0.151.tar.gz"
       },
       "features": [
         "default",
@@ -1845,7 +1845,7 @@
         },
         {
           "name": "serde_core",
-          "package_key": "serde_core-1.0.228",
+          "package_key": "serde_core-1.0.229",
           "kind": "normal",
           "features": [],
           "uses_default_features": false,
@@ -1868,7 +1868,7 @@
       "crate_renames": {},
       "build_rust_crate_args": {
         "crateName": "serde_json",
-        "version": "1.0.150",
+        "version": "1.0.151",
         "edition": "2021",
         "features": [
           "default",
@@ -1928,7 +1928,7 @@
         },
         {
           "name": "serde",
-          "package_key": "serde-1.0.228",
+          "package_key": "serde-1.0.229",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -1972,15 +1972,15 @@
         "preBuild": "export CARGO_CRATE_NAME=serde_yaml;"
       }
     },
-    "syn-2.0.119": {
+    "syn-3.0.3": {
       "name": "syn",
-      "version": "2.0.119",
+      "version": "3.0.3",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/syn/syn-2.0.119.crate",
-        "sha256": "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297",
-        "name_with_ext": "syn-2.0.119.tar.gz"
+        "url": "https://static.crates.io/crates/syn/syn-3.0.3.crate",
+        "sha256": "53e9bae58849f64dfa4f5d5ae372c8341f7305f82a3868709269343628b659a3",
+        "name_with_ext": "syn-3.0.3.tar.gz"
       },
       "features": [
         "clone-impls",
@@ -1998,7 +1998,7 @@
       "runtime_dependencies": [
         {
           "name": "proc_macro2",
-          "package_key": "proc-macro2-1.0.106",
+          "package_key": "proc-macro2-1.0.107",
           "kind": "normal",
           "features": [],
           "uses_default_features": false,
@@ -2008,7 +2008,7 @@
         },
         {
           "name": "quote",
-          "package_key": "quote-1.0.46",
+          "package_key": "quote-1.0.47",
           "kind": "normal",
           "features": [],
           "uses_default_features": false,
@@ -2031,7 +2031,7 @@
       "crate_renames": {
         "proc-macro2": [
           {
-            "version": "1.0.106",
+            "version": "1.0.107",
             "rename": "proc_macro2"
           }
         ],
@@ -2044,7 +2044,7 @@
       },
       "build_rust_crate_args": {
         "crateName": "syn",
-        "version": "2.0.119",
+        "version": "3.0.3",
         "edition": "2021",
         "features": [
           "clone-impls",
@@ -2057,7 +2057,7 @@
         "crateRenames": {
           "proc-macro2": [
             {
-              "version": "1.0.106",
+              "version": "1.0.107",
               "rename": "proc_macro2"
             }
           ],
@@ -2072,15 +2072,15 @@
         "preBuild": "export CARGO_CRATE_NAME=syn;"
       }
     },
-    "thiserror-2.0.18": {
+    "thiserror-2.0.19": {
       "name": "thiserror",
-      "version": "2.0.18",
+      "version": "2.0.19",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/thiserror/thiserror-2.0.18.crate",
-        "sha256": "4288b5bcbc7920c07a1149a35cf9590a2aa808e0bc1eafaade0b80947865fbc4",
-        "name_with_ext": "thiserror-2.0.18.tar.gz"
+        "url": "https://static.crates.io/crates/thiserror/thiserror-2.0.19.crate",
+        "sha256": "09a43598840e33d5b0331f38c5e30d13bb11c11210a4b58f0d9b18a5a5eefcd9",
+        "name_with_ext": "thiserror-2.0.19.tar.gz"
       },
       "features": [
         "default",
@@ -2094,7 +2094,7 @@
       "runtime_dependencies": [
         {
           "name": "thiserror_impl",
-          "package_key": "thiserror-impl-2.0.18",
+          "package_key": "thiserror-impl-2.0.19",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -2107,14 +2107,14 @@
       "crate_renames": {
         "thiserror-impl": [
           {
-            "version": "2.0.18",
+            "version": "2.0.19",
             "rename": "thiserror_impl"
           }
         ]
       },
       "build_rust_crate_args": {
         "crateName": "thiserror",
-        "version": "2.0.18",
+        "version": "2.0.19",
         "edition": "2021",
         "features": [
           "default",
@@ -2123,7 +2123,7 @@
         "crateRenames": {
           "thiserror-impl": [
             {
-              "version": "2.0.18",
+              "version": "2.0.19",
               "rename": "thiserror_impl"
             }
           ]
@@ -2133,15 +2133,15 @@
         "preBuild": "export CARGO_CRATE_NAME=thiserror;"
       }
     },
-    "thiserror-impl-2.0.18": {
+    "thiserror-impl-2.0.19": {
       "name": "thiserror-impl",
-      "version": "2.0.18",
+      "version": "2.0.19",
       "edition": "2021",
       "source": {
         "kind": "registry",
-        "url": "https://static.crates.io/crates/thiserror-impl/thiserror-impl-2.0.18.crate",
-        "sha256": "ebc4ee7f67670e9b64d05fa4253e753e016c6c95ff35b89b7941d6b856dec1d5",
-        "name_with_ext": "thiserror-impl-2.0.18.tar.gz"
+        "url": "https://static.crates.io/crates/thiserror-impl/thiserror-impl-2.0.19.crate",
+        "sha256": "43cbfe0cf76104d42a574802844187e84a305e531ed54455f11fbde0f10541cd",
+        "name_with_ext": "thiserror-impl-2.0.19.tar.gz"
       },
       "features": [],
       "proc_macro": true,
@@ -2152,7 +2152,7 @@
       "runtime_dependencies": [
         {
           "name": "proc_macro2",
-          "package_key": "proc-macro2-1.0.106",
+          "package_key": "proc-macro2-1.0.107",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -2162,7 +2162,7 @@
         },
         {
           "name": "quote",
-          "package_key": "quote-1.0.46",
+          "package_key": "quote-1.0.47",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -2172,7 +2172,7 @@
         },
         {
           "name": "syn",
-          "package_key": "syn-2.0.119",
+          "package_key": "syn-3.0.3",
           "kind": "normal",
           "features": [],
           "uses_default_features": true,
@@ -2185,19 +2185,19 @@
       "crate_renames": {
         "proc-macro2": [
           {
-            "version": "1.0.106",
+            "version": "1.0.107",
             "rename": "proc_macro2"
           }
         ]
       },
       "build_rust_crate_args": {
         "crateName": "thiserror-impl",
-        "version": "2.0.18",
+        "version": "2.0.19",
         "edition": "2021",
         "crateRenames": {
           "proc-macro2": [
             {
-              "version": "1.0.106",
+              "version": "1.0.107",
               "rename": "proc_macro2"
             }
           ]
@@ -2299,9 +2299,9 @@
       }
     }
   },
-  "root_crate": "lava-prelude-0.1.7",
+  "root_crate": "lava-prelude-0.1.8",
   "workspace_members": [
-    "lava-prelude-0.1.7"
+    "lava-prelude-0.1.8"
   ],
   "flake_metadata": {
     "lava-prelude": {
@@ -2345,7 +2345,7 @@
           },
           {
             "name": "serde_core",
-            "package_key": "serde_core-1.0.228",
+            "package_key": "serde_core-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2392,7 +2392,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2404,7 +2404,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2414,7 +2414,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2502,7 +2502,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2514,7 +2514,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2524,7 +2524,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2562,7 +2562,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2592,7 +2592,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2604,7 +2604,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2624,7 +2624,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2692,7 +2692,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2704,7 +2704,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2714,7 +2714,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2726,7 +2726,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-prelude-0.1.7": {
+      "lava-prelude-0.1.8": {
         "runtime_dependencies": [
           {
             "name": "lava_arch",
@@ -2868,7 +2868,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2880,7 +2880,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2890,7 +2890,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2928,7 +2928,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -2940,7 +2940,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2998,7 +2998,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -3010,7 +3010,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.150",
+            "package_key": "serde_json-1.0.151",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3020,7 +3020,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3036,7 +3036,7 @@
         "runtime_dependencies": [
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [
               "derive"
@@ -3048,7 +3048,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.18",
+            "package_key": "thiserror-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3068,7 +3068,7 @@
           "std"
         ]
       },
-      "proc-macro2-1.0.106": {
+      "proc-macro2-1.0.107": {
         "runtime_dependencies": [
           {
             "name": "unicode_ident",
@@ -3087,11 +3087,11 @@
           "proc-macro"
         ]
       },
-      "quote-1.0.46": {
+      "quote-1.0.47": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3111,11 +3111,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "serde-1.0.228": {
+      "serde-1.0.229": {
         "runtime_dependencies": [
           {
             "name": "serde_core",
-            "package_key": "serde_core-1.0.228",
+            "package_key": "serde_core-1.0.229",
             "kind": "normal",
             "features": [
               "result"
@@ -3127,7 +3127,7 @@
           },
           {
             "name": "serde_derive",
-            "package_key": "serde_derive-1.0.228",
+            "package_key": "serde_derive-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3144,7 +3144,7 @@
           "std"
         ]
       },
-      "serde_core-1.0.228": {
+      "serde_core-1.0.229": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -3152,11 +3152,11 @@
           "std"
         ]
       },
-      "serde_derive-1.0.228": {
+      "serde_derive-1.0.229": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [
               "proc-macro"
@@ -3168,7 +3168,7 @@
           },
           {
             "name": "quote",
-            "package_key": "quote-1.0.46",
+            "package_key": "quote-1.0.47",
             "kind": "normal",
             "features": [
               "proc-macro"
@@ -3180,7 +3180,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [
               "clone-impls",
@@ -3200,7 +3200,7 @@
           "default"
         ]
       },
-      "serde_json-1.0.150": {
+      "serde_json-1.0.151": {
         "runtime_dependencies": [
           {
             "name": "itoa",
@@ -3224,7 +3224,7 @@
           },
           {
             "name": "serde_core",
-            "package_key": "serde_core-1.0.228",
+            "package_key": "serde_core-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3283,7 +3283,7 @@
           },
           {
             "name": "serde",
-            "package_key": "serde-1.0.228",
+            "package_key": "serde-1.0.229",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3305,11 +3305,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "syn-2.0.119": {
+      "syn-3.0.3": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3319,7 +3319,7 @@
           },
           {
             "name": "quote",
-            "package_key": "quote-1.0.46",
+            "package_key": "quote-1.0.47",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3348,11 +3348,11 @@
           "proc-macro"
         ]
       },
-      "thiserror-2.0.18": {
+      "thiserror-2.0.19": {
         "runtime_dependencies": [
           {
             "name": "thiserror_impl",
-            "package_key": "thiserror-impl-2.0.18",
+            "package_key": "thiserror-impl-2.0.19",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3367,11 +3367,11 @@
           "std"
         ]
       },
-      "thiserror-impl-2.0.18": {
+      "thiserror-impl-2.0.19": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
-            "package_key": "proc-macro2-1.0.106",
+            "package_key": "proc-macro2-1.0.107",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3381,7 +3381,7 @@
           },
           {
             "name": "quote",
-            "package_key": "quote-1.0.46",
+            "package_key": "quote-1.0.47",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3391,7 +3391,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-2.0.119",
+            "package_key": "syn-3.0.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3440,8 +3440,8 @@
       }
     }
   },
-  "cargo_lock_sha256": "be0bfb371bd9b546219f240826b4fb81596577c9035c772354041b8f595c6c14",
+  "cargo_lock_sha256": "2f1b91ce0b91d9361d699583da09a09d139f26a33715e1ecb1bb1fb1ee914997",
   "manifest_sha256": {
-    "Cargo.toml": "aafa44a23ccf5de35b59135e388cf19e95cefc84befc49c2fee20209e6f7f512"
+    "Cargo.toml": "c6d75ae33ad9ee6dc166a5ce86842e5d1e3a903531880e87a8bdf14c146ba7af"
   }
 }
