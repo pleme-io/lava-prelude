@@ -16,15 +16,15 @@ path = "src/lib.rs"
 pedantic = "warn"
 
 [dependencies]
-lava-core      = { git = "https://github.com/pleme-io/lava-core",      branch = "main" }
-lava-arch      = { git = "https://github.com/pleme-io/lava-arch",      branch = "main" }
-lava-contracts = { git = "https://github.com/pleme-io/lava-contracts", branch = "main" }
-lava-stack     = { git = "https://github.com/pleme-io/lava-stack",     branch = "main" }
-lava-types     = { git = "https://github.com/pleme-io/lava-types",     branch = "main" }
-lava-schema    = { git = "https://github.com/pleme-io/lava-schema",    branch = "main" }
-lava-eval      = { git = "https://github.com/pleme-io/lava-eval",      branch = "main" }
-lava-runtime   = { git = "https://github.com/pleme-io/lava-runtime",   branch = "main" }
-lava-architectures = { git = "https://github.com/pleme-io/lava-architectures", branch = "main" }
+lava-core      = "0.1"
+lava-arch      = "0.1"
+lava-contracts = "0.1"
+lava-stack     = "0.1"
+lava-types     = "0.1"
+lava-schema    = "0.1"
+lava-eval      = "0.1"
+lava-runtime   = "0.1"
+lava-architectures = "0.1"
 
 [dev-dependencies]
 indexmap = { version = "2", features = ["serde"] }
